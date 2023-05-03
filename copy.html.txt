@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Email Template</title>
+  </head>
+  <body>
+    <div
+      style="
+        font-family: Arial, Helvetica, sans-serif;
+        width: 500px;
+        height: 700px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+      "
+    >
+      <!-- Header -->
+      <div
+        style="
+          background-color: rgb(212, 18, 23);
+          height: 34%;
+          color: white;
+          padding-top: 2rem;
+          margin-bottom: 3rem;
+        "
+      >
+        <div
+          style="text-align: center;"
+        >
+          <img width="20%" src="https://i.ibb.co/tsyYcdv/shield.png" alt="" />
+          <p style="font-size: 1.7rem; margin-bottom: 0px">Verification</p>
+          <p style="font-size: small">[date]</p>
+          
+          <img
+            style="margin: 0 auto 0 auto;"
+            width="12%"
+            src="https://i.ibb.co/Qm12bFg/message-Icon.png"
+            alt=""
+          />
+        </div>
+      </div>
+      
+
+      <div style="font-size: 1rem; font-weight: 500; color: gray">
+        Dear [name],
+      </div>
+      <div style="font-size: 1rem; font-weight: 500; color: gray">
+        As requested, we have sent a One-Time Password (OTP) to your registered
+        mobile number/email address for login
+      </div>
+      <div style="font-size: 1rem; font-weight: 500; color: gray">
+        The OTP is [otpCode]
+      </div>
+
+      <!-- OTP Container -->
+      <div
+        style="
+          text-align: center;
+          vertical-align: middle;
+          margin: 3rem 0rem 3rem 0rem;
+        "
+      >
+        <!-- OTP Digit -->
+        <span
+          style="
+            border: 2px solid gray;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            width: 48px;
+            height: 60px;
+            margin: 0rem 0.25rem 0rem 0.25rem;
+            vertical-align: middle;
+            padding: 0.7rem;
+            text-overflow: ellipsis;
+          "
+          >[otp-digit-1]</span
+        >
+        <!--  OTP Digit -->
+        <span
+          style="
+            border: 2px solid gray;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            width: 48px;
+            height: 60px;
+            margin: 0rem 0.25rem 0rem 0.25rem;
+            vertical-align: middle;
+            padding: 0.7rem;
+            text-overflow: ellipsis;
+          "
+          >[otp-digit-2]</span
+        >
+        <!--  OTP Digit -->
+        <span
+          style="
+            border: 2px solid gray;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            width: 48px;
+            height: 60px;
+            margin: 0rem 0.25rem 0rem 0.25rem;
+            vertical-align: middle;
+            padding: 0.7rem;
+            text-overflow: ellipsis;
+          "
+          >[otp-digit-3]</span
+        >
+        <!--  OTP Digit -->
+        <span
+          style="
+            border: 2px solid gray;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            width: 48px;
+            height: 60px;
+            margin: 0rem 0.25rem 0rem 0.25rem;
+            vertical-align: middle;
+            padding: 0.7rem;
+            text-overflow: ellipsis;
+          "
+          >[otp-digit-4]</span
+        >
+        <!--  OTP Digit -->
+        <span
+          style="
+            border: 2px solid gray;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            width: 48px;
+            height: 60px;
+            margin: 0rem 0.25rem 0rem 0.25rem;
+            vertical-align: middle;
+            padding: 0.7rem;
+            text-overflow: ellipsis;
+          "
+          >[otp-digit-5]</span
+        >
+        <!--  OTP Digit -->
+        <span
+          style="
+            border: 2px solid gray;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+            width: 48px;
+            height: 60px;
+            margin: 0rem 0.25rem 0rem 0.25rem;
+            vertical-align: middle;
+            padding: 0.7rem;
+            text-overflow: ellipsis;
+          "
+          >[otp-digit-6]</span
+        >
+      </div>
+
+      <div
+        style="
+          font-size: 1rem;
+          font-weight: 500;
+          color: gray;
+          margin-bottom: 3rem;
+        "
+      >
+        Please enter the OTP in the designated field to complete the
+        verification process. Please not that the OTP is valid only for 15
+        minutes
+      </div>
+    </div>
+  </body>
+</html>
